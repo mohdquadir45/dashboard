@@ -39,7 +39,9 @@ const Sidebar = ({isLOading, setIsLoading}) => {
             </NavLink>
             
           ))}
-          <button onClick={() => setIsLoading(false)}><span><FiLogOut/></span>LogOut</button>
+           <div className='flex'>
+               <button onClick={() => setIsLoading(false)} className="flex content-center items-center ml-6 w-full  text-gray-700 dark:text-gray-400 dark:hover:text-black hover:bg-light-gray "><span><FiLogOut/></span><span className='ml-4'>LogOut</span></button>
+          </div>
         </div>
         
       </>)}
