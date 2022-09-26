@@ -71,7 +71,7 @@ const Signup = ({ setIsLoading, isLoading }) => {
                    <h1 className="text-xl mt-8">LOGIN TO YOUR ACCOUNT</h1>
 
                    <div className="mt-8">
-                  <label class="block text-gray-100 text-sm font-bold mb-2" for="username">
+                  <label class="block text-gray-600 text-sm font-bold mb-2" for="username">
                    Username
                    </label>
                     <input
@@ -88,7 +88,7 @@ const Signup = ({ setIsLoading, isLoading }) => {
                   </div>
 
                   <div className="mt-4">
-                  <label class="block text-gray-100 text-sm font-bold mb-2" for="password">
+                  <label class="block text-gray-600 text-sm font-bold mb-2" for="password">
                     Email
                    </label>
                     <input
@@ -103,7 +103,7 @@ const Signup = ({ setIsLoading, isLoading }) => {
                     </p>
                   </div>
                   <div className="mt-4">
-                  <label class="block text-gray-100 text-sm font-bold mb-2" for="password">
+                  <label class="block text-gray-600 text-sm font-bold mb-2" for="password">
                     Password
                    </label>
                     <input
