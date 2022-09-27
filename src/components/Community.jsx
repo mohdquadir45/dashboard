@@ -19,6 +19,25 @@ const Community = () => {
    
     </div>
       </div>
+
+    <div
+        className="mt-4 bg-neutral-300 z-40  w-auto  mx-w-md mx-6 rounded-lg  border  border-600"
+        style={{ height: "65vh" /*  backgroundColor:'#242424' */ }}
+      >
+        <div className="grid grid-cols-1 gap-1 overflow-y-auto h-full ">
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+          <div class="col-span-1 h-12 bg-gray-100 mx-4 rounded-lg cursor-pointer"></div>
+        </div>
+      </div>
     </div>
   )
 }
