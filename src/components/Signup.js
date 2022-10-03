@@ -20,7 +20,7 @@ const Signup = ({ setIsLoading, isLoading }) => {
     }
   };
   function ValidateEmail(mail) {
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var mailformat = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (mail.match(mailformat)) {
       return true;
     } else {
@@ -30,12 +30,10 @@ const Signup = ({ setIsLoading, isLoading }) => {
 
   function CheckPassword(p) {
     if (
-      p.length >= 7 &&
+      p.length >= 3 &&
       p.length <= 14 &&
       /[a-z]/.test(p) &&
-      /[A-Z]/.test(p) &&
-      /[0-9]/.test(p) &&
-      /[^A-Za-z0-9]/.test(p)
+      /^[a-z]+$/.test(p)
     ) {
       return true;
     } else {
